@@ -45,7 +45,7 @@ bounty **"Make Markdown rendering faster"** ($250).
 
 Against the kit's practice set (720 cases: 680 CommonMark/GFM spec
 examples + 40 generated README documents ≥ 20.000 characters), this entry
-passes **720/720** cases (verified with the kit's scorer,
+passes **720/720** cases on the practice set (verified with the kit's scorer,
 `program/scorer/main.ts`, and an independent diff harness).
 
 ## License

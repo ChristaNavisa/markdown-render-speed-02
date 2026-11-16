@@ -1,6 +1,6 @@
 // Driver for the markdown-render-speed entry. The harness runs
 // `node /bot/main.ts` (Node 22, TypeScript types stripped natively).
-// It reads every case from /input/cases.json, renders each one alone
+// It reads every case from /input/cases.json, renders each case on its own
 // with parse() from ./parse.js, and writes /output/html.json: a JSON
 // array of the HTML strings, one per case, in the cases' order.
 // Outside a container, MAKEFUN_INPUT_DIR and MAKEFUN_OUTPUT_DIR stand
