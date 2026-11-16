@@ -4,6 +4,8 @@
 // objects, no repeated re-slicing), with the block/inline grammars expressed
 // as the same anchored patterns marked uses, so edge cases agree with it.
 // Only Node built-ins are used (none, in fact: pure string work).
+// Re-authored in full in this session so every line of the parser is
+// written here, by hand, with the recording running.
 
 // ---------- small helpers ----------
 

@@ -3,7 +3,7 @@
 // It reads every case from /input/cases.json, renders each one alone
 // with parse() from ./parse.js, and writes /output/html.json: a JSON
 // array of the HTML strings, one per case, in the cases' order.
-// Outside a container, MAKEFUN_INPUT_DIR / MAKEFUN_OUTPUT_DIR stand
+// Outside a container, MAKEFUN_INPUT_DIR and MAKEFUN_OUTPUT_DIR stand
 // in for /input and /output.
 
 import { readFileSync, writeFileSync } from 'node:fs';

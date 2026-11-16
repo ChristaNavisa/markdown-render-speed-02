@@ -31,7 +31,7 @@ bounty **"Make Markdown rendering faster"** ($250).
 - Block parsing builds a light node tree (the same node types marked
   produces), deferring inline rendering so link definitions collected
   anywhere in the document are visible to every paragraph, including
-  forward references.
+  forward references — the same two-pass split marked itself uses.
 - Inline rendering is a single loop over the paragraph text, dispatching
   on the first character so token checks that cannot match are skipped,
   with fast paths for plain prose (no inline token can start) and for the
